@@ -1,0 +1,27 @@
+# Secrets
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+venv/
+venv310/
+
+# Test files
+test_*.py
+
+# Browser garbage
+*.html
+*.css
+!style.css  # Only if you actually use it
+
+# Docker files
+Dockerfile*
+.dockerignore
+
+# Misc
+*.log
+.DS_Store
+my publishkey.txt
+my.projicte id.txt
+projiecturl.txt
